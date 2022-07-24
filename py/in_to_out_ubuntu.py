@@ -30,13 +30,14 @@ output_data = [
     }
 ]
 
+# append input into output list
 for x in input_data:
-    print(x)
+    output_data.append(x)
 
-'''
+
+# iterate through list
 for list in output_data:
+    # interate through keys
     for k in list.keys():
         if "Ubuntu" in k:
             print(k)
-
-'''
